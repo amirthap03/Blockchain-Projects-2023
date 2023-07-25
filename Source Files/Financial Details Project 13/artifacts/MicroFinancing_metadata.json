@@ -1,0 +1,188 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_documentHash",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_borrowerName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lenderName",
+						"type": "string"
+					}
+				],
+				"name": "addFinancingDetails",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "financingCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "financingDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "documentHash",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "borrowerName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "lenderName",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getFinancingDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_documentHash",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_borrowerName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lenderName",
+						"type": "string"
+					}
+				],
+				"name": "updateFinancingDetails",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Financial Details Project 13/Financial Details.sol": "MicroFinancing"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Financial Details Project 13/Financial Details.sol": {
+			"keccak256": "0x80da2569c25acdd53639763214545c667fae47be58721a8a17eb292dbdb30fe8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5f94d0bd552fab4a37560c40724a41b739070bc9586d422d585ab6a84289fa1d",
+				"dweb:/ipfs/QmSqdLCWSoPLszMb8nyKUWUAbC459TkD9qRVoMeoVT7r3H"
+			]
+		}
+	},
+	"version": 1
+}
